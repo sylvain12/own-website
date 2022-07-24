@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Work+Sans:wght@200;400;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .section {
+    @apply w-full;
+  }
+
+  .section:not(:last-of-type) {
+    @apply mb-8
+  }
+
+  .link-main  {
+    @apply text-main font-medium relative inline-block after:absolute after:left-0 after:bottom-1 after:w-full after:h-[4px] after:bg-main after:z-[-1] after:opacity-60
+  }
+
+  .link-orange  {
+    @apply text-second font-medium relative inline-block after:absolute after:left-0 after:bottom-1 after:w-full after:h-[4px] after:bg-second after:z-[-1] after:opacity-60
+  }
+}
+
+:root {
+  --color-light: #C7C7C7;
+  --color-second: #E0EEFA;
+  --color-main: #1E81B0;
+  --color-orange: #da532c;
+  --color-white: #fff;
+  --ff-sans: 'Work Sans', sans-serif;
+  --ff-serif: 'Playfair Display', serif;
+}
+
+
+body {
+
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  /* background: linear-gradient(225deg, #1E81B0 25%, rgba(30, 129, 176, 0) 99.44%); */
+  background-color: var(--color-white);
+  /* color: var(--color-second); */
+  text-align: center;
+  font-family: var(--ff-sans);
+  margin-inline: auto;
+  max-width: 576px;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+}
