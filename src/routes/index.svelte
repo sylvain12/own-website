@@ -24,7 +24,7 @@
     Hi 👋 I'm <a href="{githubLink}" target="blank">{fullname}</a>
   </p>
 
-<h1 class="font-serif font-bold text-6xl color-main text-main ">Solftware Ingineer</h1>
+<h1 class="font-serif font-bold text-6xl color-main text-main ">Solftware Engineer</h1>
 <p class="mt-8 max-w-2xl">Hi, Sylvain Kadjo, I am a software engineer and i do also some <span class="link-main">ui/ux design</span>  and <span class="link-orange">data analysis</span> stuff. Here is the prototype of my own website under construction.</p>
 </div>
 
