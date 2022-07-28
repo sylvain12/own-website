@@ -2,6 +2,7 @@
   import {owner} from '../stores/social.store'
   import Header from '../components/Header/Index.svelte'
   import About from '../components/About/Index.svelte'
+  import Contact from '../components/Contact/Index.svelte'
   let curYear = new Date().getFullYear()
 </script>
 
@@ -11,3 +12,4 @@
 
 <Header />
 <About />
+<Contact />
