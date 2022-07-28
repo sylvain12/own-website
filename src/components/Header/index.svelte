@@ -4,7 +4,7 @@
   import Hero from './Hero.svelte'
 </script>
 
-<div class="container relative">
+<div class="container relative section">
   <Navbar />
   <Social />
   <Hero />

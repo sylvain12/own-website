@@ -22,6 +22,14 @@
     @apply text-second font-bold relative inline-block after:absolute after:left-0 after:bottom-1 after:w-full after:h-[.5em] after:bg-second after:z-[-1] after:opacity-60
   }
 
+  .span-main {
+    @apply text-main font-bold relative inline-block after:absolute after:left-0 after:bottom-1 after:w-full after:h-[.5em] after:bg-main after:z-[-1] after:opacity-60
+  }
+
+  .span-orange {
+    @apply text-second font-bold relative inline-block after:absolute after:left-0 after:bottom-1 after:w-full after:h-[.5em] after:bg-second after:z-[-1] after:opacity-60
+  }
+
   .container {
     @apply max-w-[144rem] mx-auto
   }
@@ -73,4 +81,14 @@ body {
 
 a {
   text-decoration: none;
+}
+
+.section:not(:last-child) {
+  margin-bottom: 15rem;
+}
+
+.section-image {
+  /* background-image: url("/images/bg-double-circle.svg");
+  background-position: center;
+  background-size: cover; */
 }
