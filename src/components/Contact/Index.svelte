@@ -5,7 +5,7 @@ import { Direction } from '../../shared/model/Position.model';
   import Title from '../ui/Title.svelte';
   let title = "Contact"
   let icon = true
-  let iconPostion = Direction.Left
+  let iconPostion = Direction.Right
 </script>
 
 <div class="container section">
