@@ -6,7 +6,7 @@
       description: 'Monitoring  & Evaluation App',
       type: 'web app',
       year: '2020',
-      image: '',
+      image: '/images/image-mande.png',
       link: 'https://mande.ci'
     },
     {
@@ -14,7 +14,7 @@
       description: 'Online business creation plateform',
       type: 'web app',
       year: '2018',
-      image: '',
+      image: '/images/image-smart-legal.png',
       link: 'https://smartlegal-africa.com/'
     },
     {
@@ -22,16 +22,16 @@
       description: 'Monitoring  & Evaluation App',
       type: 'web app',
       year: '2022',
-      image: 'https://ersys-ci.net',
-      link: ''
+      image: '/images/image-ersys.png',
+      link: 'https://ersys-ci.net'
     },
     {
       name: 'Infocovid-19',
       description: 'Covid 19 info website',
       type: 'web app',
       year: '2021',
-      image: '',
-      link: ''
+      image: '/images/image-info-covid.png',
+      link: 'https://covid19-ci.vercel.app/'
     }
   ]
 </script>
