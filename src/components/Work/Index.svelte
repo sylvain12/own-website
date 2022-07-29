@@ -2,15 +2,16 @@
   import {owner} from '../../stores/social.store'
   import { Direction } from '../../shared/model/Position.model';
   import WorkList from './WorkList.svelte';
+  import { Color } from '../../enums/Color.enum';
 
   import Title from '../ui/Title.svelte';
   let title = "Latest works"
-  let icon = true
+  let icon = {position: Direction.Left, color: Color.Second}
   let iconPosition = Direction.Left
 </script>
 
-<div class="container section">
-  <Title {title}  icon="{icon}" iconPosition="{iconPosition}"  />
+<div class="container section" id="works">
+  <Title {title}  icon="{icon}"  />
   <p class="text-[2.6rem] max-w-[800px] mb-4">Here are some of my personal projects and those I have worked on as part of my job.</p>
   <a class="underline flex items-center text-main text-[2rem]" href="{$owner.social.github}">
     <span class="mr-2">More projects</span>

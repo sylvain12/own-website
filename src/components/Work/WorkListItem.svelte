@@ -16,7 +16,7 @@
 </script>
 
 <div class="relative border-b border-main flex items-center px-2 py-[4rem] cursor-pointer" on:mouseover="{onShowWorkImage}" on:focus="{onShowWorkImage}" on:mouseleave="{() => isShow = false}">
-  <div class="text-main-light">
+  <div class="text-second opacity-80">
     {work.type}
   </div>
   <div class="flex flex-col ml-[12rem] flex-1">

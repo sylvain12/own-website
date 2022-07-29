@@ -3,7 +3,7 @@
   $: fullname = $owner.identification.firstName + " " + $owner.identification.lastName;
 </script>
 
-<nav class="flex items-center py-8">
+<nav class="flex items-center py-8 mb-[22rem]">
   <div class="nav__logo">
     <a href="/">
     <img class="w-full h-full" src="/logo.png" alt="Sylvain kadjo logo">
@@ -21,7 +21,10 @@
       </a>
     </li>
   </ul>
-  <div class="ml-auto text-4xl">
-    Hi 👋, I'm <a class="link-main" href="">{fullname}</a>
-  </div>
+  <!-- <div class="ml-auto text-4xl">
+    <p>
+      Hi 👋, I'm 
+      <a class="underline text-main font-bold" href="{$owner.social.github}">{fullname}</a>
+    </p>
+  </div> -->
 </nav>
