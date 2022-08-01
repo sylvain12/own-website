@@ -3,7 +3,7 @@
   $: fullname = $owner.identification.firstName + " " + $owner.identification.lastName;
 </script>
 
-<nav class="flex items-center py-8 mb-[22rem]">
+<nav class="flex items-center pb-8 mb-[16rem]">
   <div class="nav__logo">
     <a href="/">
     <img class="w-full h-full" src="/logo.png" alt="Sylvain kadjo logo">

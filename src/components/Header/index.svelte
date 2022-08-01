@@ -25,7 +25,7 @@
 
 </script>
 
-<div class="container relative section">
+<div class="container relative section pt-4">
   <Navbar />
   <Social />
   <Hero />
