@@ -8,7 +8,6 @@
   let icon = {position: Direction.Right, color: Color.Second}
 </script>
 
-<div class="container section mt-[20rem]" id="about">
   <Title {title} icon={icon} />
 
   <div class="relative">
@@ -28,7 +27,6 @@
   <img class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-[300px] z-[-1]" src="/images/bg-double-circle.svg" alt="">
   </div>
 
-</div>
 
 
 <style lang="postcss">

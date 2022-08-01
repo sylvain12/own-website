@@ -3,5 +3,7 @@
   import Skills from './Skills.svelte'
 </script>
 
-<Me />
-<Skills />
+<div class="container section mt-[20rem]" id="about">
+  <Me />
+  <Skills />
+</div>
