@@ -22,10 +22,12 @@
   <footer class="flex items-baseline">
     <div class=" flex items-baseline gap-8">
       <div class="w-[50px] object-cover">
-        <img class="w-full h-full" src="/logo.png" alt="">
+        <a href="/">
+          <img class="w-full h-full" src="/logo.png" alt="Sylvain Kadjo Logo">
+        </a>
       </div>
-      <a class="underline text-main transition hover:no-underline text-4xl" href="{$owner.social.github}">Github</a>
-      <a class="underline text-main transition hover:no-underlinen text-4xl" href="{$owner.social.linkedin}">Linked'in</a>
+      <a class="underline text-main transition hover:no-underline text-4xl" href="{$owner.social.github}" target="_blank">Github</a>
+      <a class="underline text-main transition hover:no-underlinen text-4xl" href="{$owner.social.linkedin}" target="_blank">Linkedin</a>
     </div>
 
     <p class="ml-auto">Build with ❤️ by @sylvain12 from 🇨🇮</p>
