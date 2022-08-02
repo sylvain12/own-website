@@ -1,7 +1,7 @@
 <script lang="ts">
   import Title from '../ui/Title.svelte';
   import {Direction} from '../../shared/model/Position.model'
-  import { Color } from '../../enums/Color.enum';
+  import { Color } from '../../shared/enums/Color.enum';
   
 
   let title = "About"

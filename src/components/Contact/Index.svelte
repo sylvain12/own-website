@@ -2,7 +2,7 @@
   import {owner} from '../../stores/social.store'
   import { Direction } from '../../shared/model/Position.model';
   import Title from '../ui/Title.svelte';
-  import { Color } from '../../enums/Color.enum';
+  import { Color } from '../../shared/enums/Color.enum';
 
   let title = "Contact"
   let icon = {position: Direction.Right, color: Color.Second}

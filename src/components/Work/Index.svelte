@@ -2,7 +2,7 @@
   import {owner} from '../../stores/social.store'
   import { Direction } from '../../shared/model/Position.model';
   import WorkList from './WorkList.svelte';
-  import { Color } from '../../enums/Color.enum';
+  import { Color } from '../../shared/enums/Color.enum';
 
   import Title from '../ui/Title.svelte';
   let title = "Latest works"
