@@ -7,7 +7,7 @@
       type: 'web app',
       year: '2020',
       image: '/images/image-mande.png',
-      link: 'https://mande.ci'
+      link: 'https://www.mande.ci/'
     },
     {
       name: 'Smart-LegalAfrica',

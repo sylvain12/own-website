@@ -31,8 +31,7 @@
 
 <style lang="postcss">
   p {
-    font-size: 2.3rem;
-    text-align: justify;
+    @apply text-2xl text-left md:text-justify sm:text-[2.3rem] leading-[1.5]
   }
   p:not(:last-child) {
     margin-bottom: 2.5rem;

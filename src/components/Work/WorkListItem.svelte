@@ -15,22 +15,22 @@
 
 </script>
 
-<div class="relative border-b border-main flex items-center px-2 py-[4rem] cursor-pointer" on:mouseover="{onShowWorkImage}" on:focus="{onShowWorkImage}" on:mouseleave="{() => isShow = false}">
-  <div class="text-second opacity-80">
+<a href="{work.link}" target="_blank" class="relative border-b border-main px-2 py-[4rem] cursor-pointer flex flex-col gap-1 md:items-center md:flex-row" on:mouseover="{onShowWorkImage}" on:focus="{onShowWorkImage}" on:mouseleave="{() => isShow = false}">
+  <div class="order-2 mb-[3rem] md:mb-0 md:order-1 text-second opacity-80">
     {work.type}
   </div>
-  <div class="flex flex-col ml-[12rem] flex-1">
+  <div class="order-3 md:order-2 md:ml-[12rem] flex flex-col flex-1">
     <span class="text-[3rem] leading-[2rem] text-main mb-2">{work.name}</span>
     <span class="text-[1.4rem]">{work.description}</span>
   </div>
-  <div class="ml-auto text-main-light text-3xl">
+  <div class=" order-1 md:ml-auto md:order-3 text-main-light text-3xl">
     {work.year}
   </div>
-</div>
+</a>
 
-<div in:fly out:fade class="work-overlay" style="display: {isShow? 'block': 'none'};  left: {$workOverlayPoint.x - 400 }px; top: {$workOverlayPoint.y - 400}px;" >
+<a href="{work.link}" target="_blank" in:fly out:fade class="work-overlay" style="display: {isShow? 'block': 'none'};  left: {$workOverlayPoint.x - 400 }px; top: {$workOverlayPoint.y - 400}px;" >
   <img class="w-full h-full" src="{work.image}" alt="{work.name}">
-</div>
+</a>
 
 <style>
   .work-overlay {

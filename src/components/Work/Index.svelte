@@ -12,8 +12,8 @@
 
 <div class="container section" id="works">
   <Title {title}  icon="{icon}"  />
-  <p class="text-[2.6rem] max-w-[800px] mb-4">Here are some of my personal projects and those I have worked on as part of my job.</p>
-  <a class="underline flex items-center text-main text-[2rem]" href="{$owner.social.github}">
+  <p class="text-2xl sm:text-[2.6rem] leading-[1.3] max-w-[800px] mb-4">Here are some of my personal projects and those I have worked on as part of my job.</p>
+  <a class="underline flex items-center text-main text-[1.6rem] sm:text-[2rem]" target="_blank" href="{$owner.social.github}">
     <span class="mr-2">More projects</span>
     <svg width="24" height="24" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M6 12H18.5M18.5 12L12.5 6M18.5 12L12.5 18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
