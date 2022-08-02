@@ -36,5 +36,8 @@
 	"type": "module",
 	"engines": {
 		"node": ">=16.16.0"
+	},
+	"dependencies": {
+		"gsap": "^3.10.4"
 	}
 }
