@@ -6,7 +6,7 @@
 <div class="mt-[6rem]">
   <p class="text-main text-[3rem] sm:text-[4rem] -mb-1">Skills</p>
   <p class="text-2xl sm:text-4xl mb-[4rem]">The skills, tools and technologies I use to bring 
-your products to life</p>
+your products to life.</p>
 <!-- <hr class="py-4 text-main"> -->
 
 <div class="flex flex-1 flex-col gap-[8rem] flex-wrap text-5xl justify-end md:items-center md:justify-between md:flex-row">
