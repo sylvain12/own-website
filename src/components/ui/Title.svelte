@@ -1,6 +1,6 @@
 <script lang="ts">
   import { Direction } from '../../shared/model/Position.model';
-  import { Color } from '../../enums/Color.enum'
+  import { Color } from '../../shared/enums/Color.enum'
   import type { TitleIcon } from '../../types/titleicon.type';
 
   export let title = ''
