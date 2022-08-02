@@ -2,27 +2,6 @@
   import Navbar from './Navbar.svelte'
   import Social from './Social.svelte'
   import Hero from './Hero.svelte'
-  import {tweened} from 'svelte/motion';
-  import {cubicOut} from 'svelte/easing';
-  import {onMount} from 'svelte';
-
-
-  const rotate = tweened('180deg', {
-    delay: Infinity,
-    easing: cubicOut,
-  })
-
-  function scale() {
-    return {
-      css: (t: any) => {
-        console.log("Scale =>", t)
-        return `
-          transform: scale(${t})
-          `
-      }
-    }
-  }
-
 </script>
 
 <div class="container relative section pt-4">
