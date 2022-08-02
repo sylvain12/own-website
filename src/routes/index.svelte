@@ -1,6 +1,6 @@
 <script>
   import {owner} from '../stores/social.store'
-  // import Header from '../components/Header/Index.svelte'
+  import Header from '../components/Header/Index.svelte'
   import About from '../components/About/Index.svelte'
   import Contact from '../components/Contact/Index.svelte'
   import Work from '../components/Work/Index.svelte'
@@ -12,7 +12,7 @@
   <title>Hi 👋 I'm {$owner.identification.firstName}!</title>
 </svelte:head>
 
-<!-- <Header /> -->
+<Header />
 <About />
 <Work />
 <Contact />
