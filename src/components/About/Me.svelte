@@ -21,7 +21,7 @@
   </p>
 
   <p>
-    Outside of my job, I also give programming training in schools, I'm part of several developer communities like <a class="link-orange" href="www.sejen.ci" target="_blank">GDG Abidjan</a>, and <a class="link-orange" href="www.sejen.ci" target="_blank">Python Côte d'Ivoire</a>, and I like to have a good time with my family, enjoy with my friends, and discover new things. What characterizes me is my <span class="font-bold text-main">smile</span>, <span class="font-bold text-main">team spirit</span>, and <span class="font-bold text-main">motivation</span> to always seek to <span class="link span-orange">improve</span> and thus impact my environment.
+    Outside of my job, I also give programming training in schools, I'm part of several developer communities like <a class="link-orange" href="https://gdg.community.dev/gdg-cloud-abidjan/" target="_blank">GDG Abidjan</a>, and <a class="link-orange" href="https://www.facebook.com/PythonCI/" target="_blank">Python Côte d'Ivoire</a>, and I like to have a good time with my family, enjoy with my friends, and discover new things. What characterizes me is my <span class="font-bold text-main">smile</span>, <span class="font-bold text-main">team spirit</span>, and <span class="font-bold text-main">motivation</span> to always seek to <span class="link span-orange">improve</span> and thus impact my environment.
   </p>
 
   <img class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-[300px] z-[-1]" src="/images/bg-double-circle.svg" alt="">
