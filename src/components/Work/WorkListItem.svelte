@@ -15,7 +15,7 @@
 
 </script>
 
-<a href="{work.link}" target="_blank" class="relative border-b border-main px-2 py-[4rem] cursor-pointer flex flex-col gap-1 md:items-center md:flex-row" on:mouseover="{onShowWorkImage}" on:focus="{onShowWorkImage}" on:mouseleave="{() => isShow = false}">
+<a data-work-item href="{work.link}" target="_blank" class="work-item relative border-b border-main px-2 py-[4rem] cursor-pointer flex flex-col gap-1 md:items-center md:flex-row">
   <div class="order-2 mb-[3rem] md:mb-0 md:order-1 text-second opacity-80">
     {work.type}
   </div>
@@ -28,9 +28,9 @@
   </div>
 </a>
 
-<a href="{work.link}" target="_blank" in:fly out:fade class="work-overlay" style="display: {isShow? 'block': 'none'};  left: {$workOverlayPoint.x - 400 }px; top: {$workOverlayPoint.y - 400}px;" >
+<!-- <a href="{work.link}" target="_blank" in:fly out:fade class="work-overlay" style="display: {isShow? 'block': 'none'};  left: {$workOverlayPoint.x - 400 }px; top: {$workOverlayPoint.y - 400}px;" >
   <img class="w-full h-full" src="{work.image}" alt="{work.name}">
-</a>
+</a> -->
 
 <style>
   .work-overlay {

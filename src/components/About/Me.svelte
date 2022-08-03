@@ -8,7 +8,7 @@
   let icon = {position: Direction.Right, color: Color.Second}
 </script>
 
-  <Title {title} icon={icon} />
+  <Title data-about-title {title} icon={icon} />
 
   <div class="relative">
 
@@ -31,7 +31,7 @@
 
 <style lang="postcss">
   p {
-    @apply text-2xl text-left md:text-justify sm:text-[2.3rem] leading-[1.5]
+    @apply text-2xl text-left md:text-justify sm:text-[2rem] leading-[1.5]
   }
   p:not(:last-child) {
     margin-bottom: 2.5rem;
