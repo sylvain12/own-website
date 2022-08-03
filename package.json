@@ -16,6 +16,7 @@
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/adapter-cloudflare": "^1.0.0-next.31",
 		"@sveltejs/kit": "next",
+		"@types/gsap": "^3.0.0",
 		"@typescript-eslint/eslint-plugin": "^5.27.0",
 		"@typescript-eslint/parser": "^5.27.0",
 		"autoprefixer": "^10.4.7",
@@ -36,5 +37,8 @@
 	"type": "module",
 	"engines": {
 		"node": ">=16.16.0"
+	},
+	"dependencies": {
+		"gsap": "^3.10.4"
 	}
 }

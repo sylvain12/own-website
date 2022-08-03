@@ -1,12 +1,23 @@
-<script>
-  import { owner } from '../../stores/social.store'
-  $: fullname = $owner.identification.firstName + " " + $owner.identification.lastName;
+<script lang="ts">
+  import {gsap} from 'gsap'
+
+  let logoTl: any;
+
+  function rotateLogo(): any {
+    gsap.set("[data-navbar-logo]", {transformOrigin: "center"})
+    logoTl = gsap.to("[data-navbar-logo]", { duration: .2, scale: 1.05});
+    return logoTl
+  }
+
+  function resetLotoRotation(tl: any) {
+    tl.reverse()
+  }
 </script>
 
-<nav class="flex justify-center items-center pb-8 mb-[16rem] md:justify-start">
+<nav class="flex justify-center items-center  mb-[10rem] md:mb-[22rem] md:justify-start">
   <div class="nav__logo hidden md:block">
-    <a href="/">
-    <img class="w-full h-full" src="/logo.png" alt="Sylvain kadjo logo">
+    <a href="/" on:mouseleave="{() => resetLotoRotation(logoTl)}" on:mouseenter="{rotateLogo}">
+    <img data-navbar-logo class="w-full h-full" src="/logo.png" alt="Sylvain kadjo logo">
     </a>
   </div>
   <ul class="nav__menu">
@@ -26,10 +37,4 @@
       </a>
     </li>
   </ul>
-  <!-- <div class="ml-auto text-4xl">
-    <p>
-      Hi 👋, I'm 
-      <a class="underline text-main font-bold" href="{$owner.social.github}">{fullname}</a>
-    </p>
-  </div> -->
 </nav>
