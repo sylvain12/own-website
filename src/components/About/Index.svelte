@@ -12,7 +12,7 @@
 
 </script>
 
-<div class="container section mt-[20rem]" id="about">
+<div class="container section mt-[24rem] md:mt-[20rem]" id="about">
   <Me />
   <Skills />
 </div>
