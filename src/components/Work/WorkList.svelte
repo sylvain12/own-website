@@ -2,6 +2,14 @@
   import WorkListItem from './WorkListItem.svelte'
   let data = [
     {
+      name: 'elysis-http-status-code',
+      description: 'Simple HTTP status codes plugin for ElysiaJS',
+      type: 'packages',
+      year: '2023',
+      image: '',
+      link: 'https://www.github.com/sylvain12'
+    },
+    {
       name: 'MandE',
       description: 'Monitoring  & Evaluation App',
       type: 'web app',
