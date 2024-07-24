@@ -1,9 +1,9 @@
 <script lang="ts">
-  import type { WorItemType } from '../../types/work.type'
+  import type { WorkModel } from './work.model'
   import { workOverlayPoint } from '../../stores/work.store';
   import {createEventDispatcher} from 'svelte'
   import { fade, fly } from 'svelte/transition';
-  export let work: WorItemType;
+  export let work: WorkModel;
 
   let isShow = false;
   const  dispatch  = createEventDispatcher()
@@ -33,14 +33,14 @@
 </a> -->
 
 <style>
-  .work-overlay {
+  /* .work-overlay {
     width: 400px;
     height: 400px;
     z-index: 90;
     object-fit: cover;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
     position: absolute;
-  }
+  } */
 
 
 </style>
