@@ -10,6 +10,6 @@ export const owner = readable({
 		github: 'https://github.com/sylvain12',
 		linkedin: 'https://www.linkedin.com/in/sylvain-kadjo-374a4911b/',
 		dribbble: 'https://dribbble.com/sylvain12',
-		instagram: 'https://www.instagram.com/sylainka12/'
+		instagram: 'https://www.instagram.com/sylvainka12/'
 	}
 });

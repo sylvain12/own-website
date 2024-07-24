@@ -48,7 +48,7 @@
     @apply flex gap-4 flex-col relative ml-auto w-[24px] mt-[10rem] flex-none before:absolute before:left-1/2 before:-translate-x-1/2 before:-top-full before:h-[10rem] before:w-[2px] before:bg-main
   } */
   .social-wrapper {
-    @apply absolute bottom-[-15rem] left-1/2 -translate-x-1/2 flex gap-8 justify-center md:right-0 md:top-1/2 md:-translate-y-1/2 md:flex-col md:ml-auto sm:w-[24px] md:mt-[10rem] md:flex-none
+    @apply absolute bottom-[-15rem] left-1/2 -translate-x-1/2 flex gap-8 justify-center md:right-0 md:top-1/2 md:-translate-y-1/2 md:flex-col md:ml-auto sm:w-[24px] md:mt-[10rem] md:flex-none z-10
   }
 
   .social-wrapper svg {
