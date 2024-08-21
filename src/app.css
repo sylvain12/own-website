@@ -1,5 +1,6 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Work+Sans:wght@200;400;600&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;600&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Work+Sans:wght@200;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;600&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -62,7 +63,7 @@
   --color-main: #063970;
   --color-orange: #da532c;
   --color-white: #fff;
-  --ff-sans: 'Manrope', sans-serif;
+  --ff-sans: 'Inter', sans-serif;
   --ff-serif: 'Playfair Display', serif;
 }
 
@@ -80,8 +81,8 @@ body {
   box-sizing: content-box;
   background-color: var(--color-white);
   font-family: var(--ff-sans);
-  font-weight: 400;
-  font-size: 1.5rem;
+  font-weight: 200;
+  font-size: 1.4rem;
 }
 
 a {
