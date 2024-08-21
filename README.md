@@ -1,2 +1,5 @@
-# Welcome to my Website
-[sylvainkadjo.com](sylvainkadjo.com)
+![alt text](static/logo.png)
+
+<!-- [sylvainkadjo.com](sylvainkadjo.com) -->
+
+
